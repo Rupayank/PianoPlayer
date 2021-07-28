@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#029cb0"
+    android:gravity="top|center"
+    android:onClick="scroll_right"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                style="@style/first_key" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button2" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button3" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button4" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button5" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button6" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button7" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button8" />
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button9" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button10" />
+
+            <Button
+                android:id="@+id/button12"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button11" />
+
+            <Button
+                android:id="@+id/button13"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button12" />
+
+            <Button
+                android:id="@+id/button14"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button13" />
+
+            <Button
+                android:id="@+id/button15"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button14" />
+
+            <Button
+                android:id="@+id/button16"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button15" />
+
+            <Button
+                android:id="@+id/button17"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button16" />
+
+            <Button
+                android:id="@+id/button18"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button17" />
+
+            <Button
+                android:id="@+id/button19"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button18" />
+
+            <Button
+                android:id="@+id/button20"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button19" />
+
+            <Button
+                android:id="@+id/button21"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button20" />
+
+            <Button
+                android:id="@+id/button22"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button21" />
+
+            <Button
+                android:id="@+id/button23"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button22" />
+
+            <Button
+                android:id="@+id/button24"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button23" />
+
+            <Button
+                android:id="@+id/button25"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button24" />
+
+            <Button
+                android:id="@+id/button26"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button25" />
+
+            <Button
+                android:id="@+id/button27"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button26" />
+
+            <Button
+                android:id="@+id/button28"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button27" />
+
+            <Button
+                android:id="@+id/button29"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button28" />
+
+            <Button
+                android:id="@+id/button30"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button29" />
+
+            <Button
+                android:id="@+id/button31"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button30" />
+
+            <Button
+                android:id="@+id/button32"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button31" />
+
+            <Button
+                android:id="@+id/button33"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button32" />
+
+            <Button
+                android:id="@+id/button34"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button33" />
+
+            <Button
+                android:id="@+id/button35"
+                style="@style/common_style"
+                android:layout_marginLeft="1dp"
+                android:layout_toRightOf="@id/button34" />
+
+            <!--            black keys-->
+            <!--            two together-->
+            <Button
+                android:id="@+id/bl1"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button" />
+
+            <Button
+                android:id="@+id/bl2"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button2" />
+
+            <!--            three together-->
+            <Button
+                android:id="@+id/bl3"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button4" />
+
+            <Button
+                android:id="@+id/bl4"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button5" />
+
+            <Button
+                android:id="@+id/bl5"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button6" />
+
+            <Button
+                android:id="@+id/bl6"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button8" />
+
+            <Button
+                android:id="@+id/bl7"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button9" />
+            <!--            three together-->
+            <Button
+                android:id="@+id/bl8"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button11" />
+
+            <Button
+                android:id="@+id/bl9"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button12" />
+
+            <Button
+                android:id="@+id/bl10"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button13" />
+
+            <!--            two together-->
+            <Button
+                android:id="@+id/bl11"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button15" />
+
+            <Button
+                android:id="@+id/bl12"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button16" />
+
+            <!--            three together-->
+            <Button
+                android:id="@+id/bl13"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button18" />
+
+            <Button
+                android:id="@+id/bl14"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button19" />
+
+            <Button
+                android:id="@+id/bl15"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button20" />
+
+            <!--            two together-->
+            <Button
+                android:id="@+id/bl16"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button22" />
+
+            <Button
+                android:id="@+id/bl17"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button23" />
+
+            <!--            three together-->
+            <Button
+                android:id="@+id/bl18"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button25" />
+
+            <Button
+                android:id="@+id/bl19"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button26" />
+
+            <Button
+                android:id="@+id/bl20"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button27" />
+
+            <!--            two together-->
+            <Button
+                android:id="@+id/bl21"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button29" />
+
+            <Button
+                android:id="@+id/bl22"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button30" />
+
+            <!--            three together-->
+            <Button
+                android:id="@+id/bl23"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button32" />
+
+            <Button
+                android:id="@+id/bl24"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button33" />
+
+            <Button
+                android:id="@+id/bl25"
+                style="@style/black_key"
+                android:layout_toRightOf="@id/button34" />
+
+            <!--            key values-->
+            <!--            key 3-->
+            <TextView
+                android:id="@+id/tc3"
+                style="@style/key_text3"
+                android:layout_toLeftOf="@id/button2"
+                android:stateListAnimator="@null"
+                android:text="C3"
+                android:textIsSelectable="false" />
+            <!--            textIsSelectable gives copy paste option when word selected-->
+
+            <TextView
+                android:id="@+id/td3"
+                style="@style/key_text3"
+                android:layout_toLeftOf="@id/button3"
+                android:stateListAnimator="@null"
+                android:text="D3"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/te3"
+                style="@style/key_text3"
+                android:layout_toLeftOf="@id/button4"
+                android:stateListAnimator="@null"
+                android:text="E3"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tf3"
+                style="@style/key_text3"
+                android:layout_toLeftOf="@id/button5"
+                android:stateListAnimator="@null"
+                android:text="F3"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tg3"
+                style="@style/key_text3"
+                android:layout_toLeftOf="@id/button6"
+                android:stateListAnimator="@null"
+                android:text="G3"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/ta3"
+                style="@style/key_text3"
+                android:layout_toLeftOf="@id/button7"
+                android:stateListAnimator="@null"
+                android:text="A3"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tb3"
+                style="@style/key_text3"
+                android:layout_toLeftOf="@id/button8"
+                android:stateListAnimator="@null"
+                android:text="B3"
+                android:textIsSelectable="false" />
+
+            <!--            key 4-->
+            <TextView
+                android:id="@+id/tc4"
+                style="@style/key_text4"
+                android:layout_toLeftOf="@id/button9"
+                android:stateListAnimator="@null"
+                android:text="C4"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/td4"
+                style="@style/key_text4"
+                android:layout_toLeftOf="@id/button10"
+                android:stateListAnimator="@null"
+                android:text="D4"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/te4"
+                style="@style/key_text4"
+                android:layout_toLeftOf="@id/button11"
+                android:stateListAnimator="@null"
+                android:text="E4"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tf4"
+                style="@style/key_text4"
+                android:layout_toLeftOf="@id/button12"
+                android:stateListAnimator="@null"
+                android:text="F4"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tg4"
+                style="@style/key_text4"
+                android:layout_toLeftOf="@id/button13"
+                android:stateListAnimator="@null"
+                android:text="G4"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/ta4"
+                style="@style/key_text4"
+                android:layout_toLeftOf="@id/button14"
+                android:stateListAnimator="@null"
+                android:text="A4"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tb4"
+                style="@style/key_text4"
+                android:layout_toLeftOf="@id/button15"
+                android:stateListAnimator="@null"
+                android:text="B4"
+                android:textIsSelectable="false" />
+
+            <!--            key 5-->
+            <TextView
+                android:id="@+id/tc5"
+                style="@style/key_text5"
+                android:layout_toLeftOf="@id/button16"
+                android:stateListAnimator="@null"
+                android:text="C5"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/td5"
+                style="@style/key_text5"
+                android:layout_toLeftOf="@id/button17"
+                android:stateListAnimator="@null"
+                android:text="D5"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/te5"
+                style="@style/key_text5"
+                android:layout_toLeftOf="@id/button18"
+                android:stateListAnimator="@null"
+                android:text="E5"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tf5"
+                style="@style/key_text5"
+                android:layout_toLeftOf="@id/button19"
+                android:stateListAnimator="@null"
+                android:text="F5"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tg5"
+                style="@style/key_text5"
+                android:layout_toLeftOf="@id/button20"
+                android:stateListAnimator="@null"
+                android:text="G5"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/ta5"
+                style="@style/key_text5"
+                android:layout_toLeftOf="@id/button21"
+                android:stateListAnimator="@null"
+                android:text="A5"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tb5"
+                style="@style/key_text5"
+                android:layout_toLeftOf="@id/button22"
+                android:stateListAnimator="@null"
+                android:text="B5"
+                android:textIsSelectable="false" />
+
+            <!--            key 6-->
+            <TextView
+                android:id="@+id/tc6"
+                style="@style/key_text6"
+                android:layout_toLeftOf="@id/button23"
+                android:stateListAnimator="@null"
+                android:text="C6"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/td6"
+                style="@style/key_text6"
+                android:layout_toLeftOf="@id/button24"
+                android:stateListAnimator="@null"
+                android:text="D6"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/te6"
+                style="@style/key_text6"
+                android:layout_toLeftOf="@id/button25"
+                android:stateListAnimator="@null"
+                android:text="E6"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tf6"
+                style="@style/key_text6"
+                android:layout_toLeftOf="@id/button26"
+                android:stateListAnimator="@null"
+                android:text="F6"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tg6"
+                style="@style/key_text6"
+                android:layout_toLeftOf="@id/button27"
+                android:stateListAnimator="@null"
+                android:text="G6"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/ta6"
+                style="@style/key_text6"
+                android:layout_toLeftOf="@id/button28"
+                android:stateListAnimator="@null"
+                android:text="A6"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tb6"
+                style="@style/key_text6"
+                android:layout_toLeftOf="@id/button29"
+                android:stateListAnimator="@null"
+                android:text="B6"
+                android:textIsSelectable="false" />
+
+            <!--            key 7-->
+            <TextView
+                android:id="@+id/tc7"
+                style="@style/key_text7"
+                android:layout_toLeftOf="@id/button30"
+                android:stateListAnimator="@null"
+                android:text="C7"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/td7"
+                style="@style/key_text7"
+                android:layout_toLeftOf="@id/button31"
+                android:stateListAnimator="@null"
+                android:text="D7"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/te7"
+                style="@style/key_text7"
+                android:layout_toLeftOf="@id/button32"
+                android:stateListAnimator="@null"
+                android:text="E7"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tf7"
+                style="@style/key_text7"
+                android:layout_toLeftOf="@id/button33"
+                android:stateListAnimator="@null"
+                android:text="F7"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tg7"
+                style="@style/key_text7"
+                android:layout_toLeftOf="@id/button34"
+                android:stateListAnimator="@null"
+                android:text="G7"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/ta7"
+                style="@style/key_text7"
+                android:layout_toLeftOf="@id/button35"
+                android:stateListAnimator="@null"
+                android:text="A7"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tb7"
+                style="@style/key_text7"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/button34"
+                android:stateListAnimator="@null"
+                android:text="B7"
+                android:textIsSelectable="false" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_left_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/left"
+            android:onClick="scroll_left" />
+
+        <Button
+            android:id="@+id/bt_record"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/bt_left_nav"
+            android:background="@drawable/record_button"
+            android:onClick="record" />
+
+        <Button
+            android:id="@+id/bt_right_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/right"
+            android:onClick="scroll_right" />
+
+        <Button
+            android:id="@+id/bt_play"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/bt_right_nav"
+            android:background="@drawable/play_button"
+            android:onClick="play_record" />
+    </RelativeLayout>
+</RelativeLayout>
